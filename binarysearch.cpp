@@ -54,6 +54,12 @@ class BinaryTree
             // 5b: Exit
             return;
         }
+
+        // Step 6: If the valjue in the data field of new node is less than that of parent
+        if(x < parent->info)
+        {
+            
+        }
     }
 }
 
