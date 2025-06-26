@@ -10,7 +10,14 @@ class Node{
   // Constructor for the node class
   Node()
   {
-    
+    leftchild = nullptr; 
+    rightchild = nullptr;
   }
+};
+
+class BinaryTree
+{
+    public :
+    Node *ROOT;
 }
 
